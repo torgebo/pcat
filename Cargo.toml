@@ -1,0 +1,12 @@
+[package]
+name = "pcat"
+version = "0.1.0"
+edition = "2021"
+license = "Apache 2.0"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.24", features = ["derive"] }
+indicatif = { version = "0.17.9", features = ["rayon"] }
+parquet = "54.0.0"
+rayon = "1.10.0"
